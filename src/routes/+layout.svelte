@@ -3,7 +3,6 @@
   import qr from 'qrcode-generator';
   import '../global.css';
 
-  console.log($page);
   const selfqr = qr(0, 'H');
   selfqr.addData($page.url.href);
   selfqr.make();
