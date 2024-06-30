@@ -12,6 +12,3 @@
 <div class="warn">
   <p>Look for the table with the giant rubber duck</p>
 </div>
-
-<h3><a href="/">home</a></h3>
-
