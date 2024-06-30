@@ -16,6 +16,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"lodash.shuffle": "^4.2.0",
 		"qrcode-generator": "^1.4.4"
 	}
 }
