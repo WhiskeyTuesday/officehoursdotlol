@@ -14,6 +14,9 @@
 
   {#if $page.url.pathname !== '/'}
     <div class="qrcode">
+      <h4>QR code for this exact webpage</h4>
+      <p><small>So you can hold out your phone and other people can save this
+      page for future reference or whatever</small></p>
       {#if selfqr}
         {@html selfqr.createSvgTag({ scalable: true, margin: 0 })}
       {/if}
@@ -31,5 +34,13 @@
     width: 100%;
     max-width: 60%;
     padding: 1rem 0 1rem 0;
+  }
+
+  .qrcode h4 {
+    margin: 0;
+  }
+
+  .qrcode p {
+    margin: 0;
   }
 </style>
