@@ -1,6 +1,6 @@
 <script>
   import shuffle from 'lodash.shuffle';
-  const pages = shuffle(['nyc', 'sfo', 'yvr']);
+  const pages = shuffle(['nyc', 'sfo', 'yvr', 'chi']);
 </script>
 
 <h1>office hours dot lol</h1>
