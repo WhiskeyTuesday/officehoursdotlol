@@ -1,14 +1,14 @@
 <h1>yvr</h1>
 
-<div class="alert">
-  <h3>First week of July 2024</h3>
-  <p>Office Hours YVR will be on Wednesday the 3rd</p>
-  <p>NOT Tuesday the 2nd</p>
-</div>
-
-<p>Tuesdays at 6pm at The Cambie Pub</p>
-<p>contact <a href="https://twitter.com/whiskeytuesday">@whiskeytuesday</a> for more info</p>
+<h3>Wednesdays at 6pm</h3>
 
 <div class="warn">
+  <p>Location TBD. We went to the cambie last time but it's not ideal.</p>
+  <p>If you have a suggestion of a good summer spot with large outdoor tables dm @whiskeytuesday</p>
+</div>
+
+<p>contact <a href="https://twitter.com/whiskeytuesday">@whiskeytuesday</a> for more info</p>
+
+<div class="info-blue">
   <p>Look for the table with the giant rubber duck</p>
 </div>
