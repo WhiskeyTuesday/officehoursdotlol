@@ -3,14 +3,33 @@
   import qr from 'qrcode-generator';
   import '../global.css';
 
-  const selfqr = qr(0, 'H');
-  selfqr.addData($page.url.href);
-  selfqr.make();
+  let { children } = $props();
+
+  let lastPage = $page.url.href;
+
+  let makeQR = (address) => {
+    const theqr = $state(qr(0, 'H'));
+    theqr.addData(address);
+    theqr.make();
+    return theqr;
+  }
+
+  let selfqr = $state(makeQR(lastPage));
+
+  $effect(() => {
+    const currentPage = $page.url.href;
+    console.log('pg', 'lp:', lastPage, 'cp:', currentPage);
+    if (currentPage !== lastPage) {
+      lastPage = currentPage;
+      selfqr = makeQR(currentPage);
+    }
+  });
 </script>
 
 <div class="container">
   {#if $page.url.pathname !== '/'}<a href="/"><h3>home</h3></a>{/if}
-  <slot />
+
+  {@render children?.()}
 
   {#if $page.url.pathname !== '/'}
     <div class="qrcode">
