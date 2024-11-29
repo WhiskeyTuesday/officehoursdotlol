@@ -3,19 +3,21 @@
 <h3>Wednesdays at 6pm</h3>
 
 <div class="info-green">
-  <p>We're at The Lido (near Broadway and Kingsway) this week.</p>
+  <p>We're at The Lido on broadway most weeks.</p>
   <p>
-    It might not be ideal if more people start coming,
-    the tables are pretty small.
-  </p>
-  <p>If you have a suggestion of a good summer spot with large outdoor tables dm
-    <a href="https://twitter.com/whiskeytuesday">@whiskeytuesday</a>.
+    It was picked as a good summer spot and we're open to changing it for the
+    season if you've got a suggestion.
   </p>
 </div>
 
-<p>contact
+<p>
+  contact
   <a href="https://twitter.com/whiskeytuesday">@whiskeytuesday</a>
+  or <a href="https://twitter.com/aphercotropist">@aphercotropist</a>
   for more info.
+</p>
+<p>
+  There's also apparently a facebook group but I'm not in it so :shrug
 </p>
 
 <div class="info-blue">
