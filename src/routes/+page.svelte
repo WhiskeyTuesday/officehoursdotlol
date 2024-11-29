@@ -28,4 +28,5 @@
   svgs now. I'm not salty about it at all.
 </p>
 
-<p>Dark mode coming soon™</p>
+<p>Dark mode works now (if it's your system default).
+Explicit buttons coming soon™</p>
