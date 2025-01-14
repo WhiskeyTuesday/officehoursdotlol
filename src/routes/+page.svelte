@@ -4,7 +4,7 @@
 </script>
 
 <h1>office hours dot lol</h1>
-<h3>active cities:</h3>
+<h3>cities:</h3>
 <ul>
   {#each pages as page}
     <li><a href="{`/${page}`}">{page}</a></li>
