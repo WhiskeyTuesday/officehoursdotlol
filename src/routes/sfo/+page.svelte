@@ -1,7 +1,7 @@
 <h1>sfo</h1>
 <p>Tuesdays at 6pm at Zeitgeist</p>
 <p>contact
-  <a href="https://twitter.com/_deepfates">@deepfates</a> or
+  <a href="https://twitter.com/_deepfates">@_deepfates</a> or
   <a href="https://twitter.com/deepfates">@deepfates</a>
   (whichever isn't banned at any given moment) for more info
 </p>
