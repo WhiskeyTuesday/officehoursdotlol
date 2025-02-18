@@ -12,8 +12,8 @@
 
 <p>
   contact
-  <a href="https://twitter.com/whiskeytuesday">@whiskeytuesday</a>
-  or <a href="https://twitter.com/aphercotropist">@aphercotropist</a>
+  <a href="https://twitter.com/aphercotropist">@aphercotropist</a>
+  or <a href="https://twitter.com/whiskeytuesday">@whiskeytuesday</a>
   for more info.
 </p>
 <p>
@@ -21,7 +21,10 @@
 </p>
 
 <div class="info-blue">
-  <p>
     Look for the table with the giant rubber duck &#x1F986; &#x1F986; &#x1F986;
-  </p>
+    <p>His name is Max.</p>
+    <p>Sometimes he glows like a beacon in an inky black sea.</p>
+    <p>Sometimes he wears sunglasses inside.</p>
+    <p>Sometimes he steals people's hats.</p>
+    <p>He's honestly a menace to society.</p>
 </div>
