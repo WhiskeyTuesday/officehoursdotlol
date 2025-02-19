@@ -1,6 +1,6 @@
 <h1>phi</h1>
 
-<h3><em>Occasional</em> Tuesdays at 6pm</h3>
+<h3>Tuesdays at 6:30 pm</h3>
 
 <div class="info-green">
   <p>Tuesdays at 6:30 pm at Bonner's Irish Pub</p>
