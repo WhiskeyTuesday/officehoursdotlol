@@ -1,9 +1,9 @@
 <h1>ber</h1>
 
-<h3>Alternate Wednesdays at 6pm</h3>
+<h3>Alternate Wednesdays at 7pm</h3>
 
 <div class="info-green">
-  <p> Wednesdays at the
+  <p>Alternate Wednesdays at 7pm at the
     <a href="https://www.google.com/maps/place/MUTED+HORN/@52.4781604,13.4283198,15.82z">
       Muted Horn
     </a>.
