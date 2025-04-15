@@ -2,7 +2,7 @@
   import shuffle from 'lodash.shuffle';
   const pages = shuffle([
     'nyc', 'sfo', 'yvr', 'chi',
-    'phi', 'ber', 'lon'
+    'phi', 'ber', 'lon', 'bos',
   ]);
 </script>
 

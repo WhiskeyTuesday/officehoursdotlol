@@ -1,13 +1,14 @@
 <h1>yvr</h1>
 
-<h3>Wednesdays at 6pm</h3>
+<h3>Thursdays at 6pm</h3>
 
 <div class="info-green">
-  <p>We're at The Lido on broadway most weeks.</p>
-  <p>
-    It was picked as a good summer spot and we're open to changing it for the
-    season if you've got a suggestion.
-  </p>
+  <p>We're at The Lido on E Broadway and St. George most weeks.</p>
+</div>
+
+<div class="warn">
+  <p>April 16th 2025 will be the last <i>Wednesday</i> night meeting</p>
+  <p>Thurdays at 6pm from April 24th 2025 until further notice</p>
 </div>
 
 <p>
