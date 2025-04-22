@@ -4,7 +4,7 @@
 
 <div class="info-blue">
   <p>
-    at <ahref="https://maps.app.goo.gl/bqKD3NoYm6hyMNAd7">The Cellar</a>
+    at <a href="https://maps.app.goo.gl/bqKD3NoYm6hyMNAd7">The Cellar</a>
     (which is down the stairs under the wine store).
   </p>
 </div>
