@@ -9,10 +9,8 @@
   </p>
 </div>
 
-<!--
 <p>
   contact
   <a href="https://twitter.com/quotidiania">@quotidiania</a>
   for more info.
 </p>
--->
