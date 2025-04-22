@@ -4,16 +4,15 @@
 
 <div class="info-blue">
   <p>
-    Permanent location tbd, dm
-    <a href="https://twitter.com/quotidiana">@quotidiana</a>
-    to be added to the group chat for week by week details
+    at <ahref="https://maps.app.goo.gl/bqKD3NoYm6hyMNAd7">The Cellar</a>
+    (which is down the stairs under the wine store).
   </p>
 </div>
 
 <!--
 <p>
   contact
-  <a href="https://twitter.com/quotidiana">@quotidiana</a>
+  <a href="https://twitter.com/quotidiania">@quotidiania</a>
   for more info.
 </p>
 -->
