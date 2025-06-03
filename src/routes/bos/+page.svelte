@@ -1,4 +1,5 @@
 <h1>bos</h1>
+<h2>Boston, Massachusetts</h2>
 
 <h3>Thursdays at 6:30pm</h3>
 

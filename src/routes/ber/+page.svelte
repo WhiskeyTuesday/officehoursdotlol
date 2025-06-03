@@ -1,4 +1,5 @@
 <h1>ber</h1>
+<h2>Berlin, Germany</h2>
 
 <h3>Alternate Wednesdays at 7pm</h3>
 
@@ -20,7 +21,7 @@
 <p>
   contact
   <a href="https://twitter.com/simon_ohler">@simon_ohler</a>
-  or <a href="https://twitter.com/not_a_hot_girl">@not_a_hot_girl</a>
+  or <a href="https://twitter.com/maebichka">@maebichka</a>
   or <a href="https://twitter.com/positive_loop">@positive_loop</a>
   for more info.
 </p>
