@@ -1,4 +1,4 @@
-<h1>chi</h1>
+<h1>ord</h1>
 <h2>Chicago, Illinois</h2>
 
 <p>Formerly Thursdays at 6pm at The Abe Lincoln statue in Lincoln Park</p>
