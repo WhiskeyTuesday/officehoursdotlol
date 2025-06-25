@@ -1,7 +1,7 @@
 <h1>yvr</h1>
 <h2>Vancouver, British Columbia</h2>
 
-<h3>Thursdays at 6pm</h3>
+<h3>Wednesdays at 6pm</h3>
 
 <div class="info-green">
   <p>We're at The Lido on E Broadway and St. George most weeks.</p>
