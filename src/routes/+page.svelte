@@ -60,8 +60,16 @@
   svgs now. I'm not salty about it at all.
 </p>
 
-<p>Dark mode works now (if it's your system default).
-Explicit buttons coming soon™</p>
+<p>
+  Dark mode works now (if it's your system default).
+  Explicit buttons coming soon™
+</p>
+
+<p>
+  There's also a <a href="/gettingstarted">getting started</a> page
+  now. Check that out if you want to start your own office hours
+  branch. Join us. JOIN USSSSSSS.
+</p>
 
 <style>
   #list-container {
