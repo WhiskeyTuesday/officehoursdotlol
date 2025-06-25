@@ -2,7 +2,7 @@
   import shuffle from 'lodash.shuffle';
   const na = shuffle([
     'nyc', 'sfo', 'yvr', 'san',
-    'phl', 'bos',
+    'phl', 'bos', 'sea',
   ]);
 
   const eu = shuffle([
