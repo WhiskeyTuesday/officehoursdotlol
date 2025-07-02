@@ -1,13 +1,7 @@
 <h1>sea</h1>
 <h2>Seattle, Washington</h2>
 
-<h3>Alternate Tuesdays at 6:30pm</h3>
-
-<div class="warn">
-  <p>
-    The first and third Tuesday of each month
-  </p>
-</div>
+<h3>Tuesdays at 6:30pm</h3>
 
 <div class="info-green">
   <p>
@@ -17,12 +11,6 @@
 </div>
 
 <hr />
-
-<div class="info-blue">
-  <p>Info also available at
-    <a href="https://www.fractalseattle.org">Fractal Seattle</a>.
-  </p>
-</div>
 
 <p>
   Contact <a href="https://twitter.com/danallison">@danallison</a> or
