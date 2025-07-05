@@ -1,16 +1,23 @@
 <script>
   import shuffle from 'lodash.shuffle';
   const na = shuffle([
-    'nyc', 'sfo', 'yvr', 'san',
-    'phl', 'bos', 'sea', 'aus',
+    { slug: 'nyc', label: 'New York City, NY' },
+    { slug: 'sfo', label: 'San Francisco, CA' },
+    { slug: 'yvr', label: 'Vancouver, BC' },
+    { slug: 'san', label: 'San Diego, CA' },
+    { slug: 'phl', label: 'Philadelphia, PA' },
+    { slug: 'bos', label: 'Boston, MA' },
+    { slug: 'sea', label: 'Seattle, WA' },
+    { slug: 'aus', label: 'Austin, TX' },
   ]);
 
   const eu = shuffle([
-    'ber', 'lon',
+    { slug: 'lon', label: 'London, UK' },
+    { slug: 'ber', label: 'Berlin, DE' },
   ]);
 
   const inactive = shuffle([
-    'ord',
+    { slug: 'ord', label: 'Chicago, IL' },
   ]);
 </script>
 
@@ -20,24 +27,24 @@
   <div id="na">
     <h3>north america:</h3>
     <ul>
-      {#each na as page}
-        <li><a href="{`/${page}`}">{page}</a></li>
+      {#each na as { slug, label }}
+        <li><abbr title="{label}"><a href="{`/${slug}`}">{slug}</a></abbr></li>
       {/each}
     </ul>
   </div>
   <div id="eu">
     <h3>europe:</h3>
     <ul>
-      {#each eu as page}
-        <li><a href="{`/${page}`}">{page}</a></li>
+      {#each eu as { slug, label }}
+        <li><abbr title="{label}"><a href="{`/${slug}`}">{slug}</a></abbr></li>
       {/each}
     </ul>
   </div>
   <div id="inactive">
     <h3>inactive:</h3>
     <ul>
-      {#each inactive as page}
-        <li><a href="{`/${page}`}">{page}</a></li>
+      {#each inactive as { slug, label }}
+        <li><abbr title="{label}"><a href="{`/${slug}`}">{slug}</a></abbr></li>
       {/each}
     </ul>
   </div>
@@ -81,5 +88,9 @@
   #list-container > div {
     padding: 1rem;
     border: 1px dashed var(--color-border);
+  }
+
+  abbr {
+    text-decoration: none;
   }
 </style>
