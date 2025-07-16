@@ -1,7 +1,7 @@
 <h1>aus</h1>
 <h2>Austin, Texas</h2>
 
-<h3>Wednesdays at 6:30pm</h3>
+<h3>Wednesdays at 6pm</h3>
 
 <div class="info-green">
   <p>Cosmic Coffee + Beer Garden Saltillo Plaza</p>
