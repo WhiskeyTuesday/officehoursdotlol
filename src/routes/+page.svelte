@@ -4,6 +4,7 @@
     { slug: 'nyc', label: 'New York City, NY' },
     { slug: 'sfo', label: 'San Francisco, CA' },
     { slug: 'yvr', label: 'Vancouver, BC' },
+    { slug: 'yyz', label: 'Toronto, ON' },
     { slug: 'san', label: 'San Diego, CA' },
     { slug: 'phl', label: 'Philadelphia, PA' },
     { slug: 'bos', label: 'Boston, MA' },
