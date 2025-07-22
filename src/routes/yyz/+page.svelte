@@ -8,7 +8,7 @@
 
 <div class="info-blue">
   <p>
-    at <a href="https://www.google.com/maps/place/Rooms/@43.6700986,-79.4297616,17z/data=!3m1!4b1!4m6!3m5!1s0x882b3548013e87af:0xdb6bf1a6bea82eb1!8m2!3d43.6700986!4d-79.4297616!16s%2Fg%2F11ts46j4_3?entry=ttu&g_ep=EgoyMDI1MDcxMy4wIKXMDSoASAFQAw%3D%3D">Rooms on Dupont Street</a>
+    at <a href="https://www.google.com/maps?sca_esv=2dc8bb8b89129ca2&rlz=1C5CHFA_enFR1143FR1143&output=search&q=victory+cafe&source=lnms&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIei9-d4bDCYGWNP_eFTtBNEwuAQVK0rg-1c_JXtht-6ycjXhp6YPsVv_gY7oqyxDH96n5AWMaB_OACWykuvoeYSNItldhASO-nBD09bkiU5ELZ6961UqJz7jHb-Cr0_53ttqY70VhCpNFBOWV-0tfZkQkNSjDg3ZlUUQUUaD09ioJu366VQ&entry=mc&ved=1t:200715&ictx=111">Victory Cafe, on Bloor and Bathurst</a>
     
     our totem is a little red figurine of a horse :)
   </p>
