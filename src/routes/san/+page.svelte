@@ -9,7 +9,8 @@
 <div class="info-blue">
   <p>
     contact
-    <a href="https://twitter.com/alexkrusz">@alexkrusz</a> or check
+    <a href="https://twitter.com/alexkrusz">@alexkrusz</a> or
+    <a href="https://twitter.com/cornelamler">@cornelamler</a> or check out
     <a href="https://sandiego.thread.zone/thread/4/1-50">this thread</a>
     for more information.
   </p>
