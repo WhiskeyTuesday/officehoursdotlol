@@ -13,6 +13,8 @@
 <p>
   contact
   <a href="https://twitter.com/wigglybone">@wigglybone</a>
+  or
+  <a href="https://twitter.com/KanekoTheKoolio">@KanekoTheKoolio</a>
   for more info.
 </p>
 
