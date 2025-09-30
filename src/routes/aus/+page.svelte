@@ -14,7 +14,7 @@
   contact
   <a href="https://twitter.com/wigglybone">@wigglybone</a>
   or
-  <a href="https://twitter.com/KanekoTheKoolio">@KanekoTheKoolio</a>
+  <a href="https://twitter.com/timebard">@timebard</a>
   for more info.
 </p>
 
