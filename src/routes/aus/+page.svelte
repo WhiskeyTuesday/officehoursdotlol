@@ -4,7 +4,7 @@
 <h3>Wednesdays at 6pm</h3>
 
 <div class="info-green">
-  <p>Cosmic Coffee + Beer Garden Saltillo Plaza</p>
+  <p>Courtyard of Cosmic Saltillo @ 1300 E 4th St, Austin, TX 78702</p>
 </div>
 <div class="warn">
   <p>Cosmic Saltillo on East 4th, not Cosmic on Pickle</p>
