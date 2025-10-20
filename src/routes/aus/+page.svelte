@@ -12,9 +12,11 @@
 
 <p>
   contact
-  <a href="https://twitter.com/wigglybone">@wigglybone</a>
-  or
   <a href="https://twitter.com/timebard">@timebard</a>
+  or
+  <a href="https://twitter.com/arcanejuice">@arcanejuice</a>
+  or
+  <a href="https://twitter.com/wigglybone">@wigglybone</a>
   for more info.
 </p>
 
