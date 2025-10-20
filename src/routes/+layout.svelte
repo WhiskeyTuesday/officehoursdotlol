@@ -61,6 +61,12 @@
     --qr-fg: white;
   }
 
+  .container {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
   @media (prefers-color-scheme: dark) {
     :root {
       --qr-bg: #333;

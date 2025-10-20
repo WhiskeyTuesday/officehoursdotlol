@@ -13,11 +13,6 @@ body {
   padding: 0;
 }
 
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
 .alert {
   background-color: #f8d7da;
   color: #721c24;

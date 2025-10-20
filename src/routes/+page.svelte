@@ -11,6 +11,7 @@
     { slug: 'sea', label: 'Seattle, WA' },
     { slug: 'aus', label: 'Austin, TX' },
     { slug: 'dca', label: 'Washington, DC' },
+    { slug: 'ord', label: 'Chicago, IL' },
   ]);
 
   const eu = shuffle([
@@ -19,7 +20,6 @@
   ]);
 
   const inactive = shuffle([
-    { slug: 'ord', label: 'Chicago, IL' },
   ]);
 </script>
 
@@ -42,14 +42,16 @@
       {/each}
     </ul>
   </div>
-  <div id="inactive">
-    <h3>inactive:</h3>
-    <ul>
-      {#each inactive as { slug, label }}
-        <li><abbr title="{label}"><a href="{`/${slug}`}">{slug}</a></abbr></li>
-      {/each}
-    </ul>
-  </div>
+  {#if inactive.length}
+    <div id="inactive">
+      <h3>inactive:</h3>
+      <ul>
+        {#each inactive as { slug, label }}
+          <li><abbr title="{label}"><a href="{`/${slug}`}">{slug}</a></abbr></li>
+        {/each}
+      </ul>
+    </div>
+  {/if}
 </div>
 
 <p>
@@ -83,11 +85,13 @@
 <style>
   #list-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    gap: 1rem;
+    flex-flow: row wrap;
+    justify-content: space-around;
   }
 
   #list-container > div {
+    min-width: 10rem;
     padding: 1rem;
     border: 1px dashed var(--color-border);
   }
