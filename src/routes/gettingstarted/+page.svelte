@@ -8,5 +8,5 @@
   <li>If you do have a totem please add it to your city's page via a pull request or by pinging <a href="https://www.twitter.com/whiskeytuesday">@whiskeytuesday</a></li>
   <li>Anyone can bring a totem item, anyone can make a post about an office hours new or existing, everyone is the host</li>
   <li>You can do weekly, bi-weekly, monthly, whatever you want. If you're not going to be weekly consider doing "first and third tuesdays" or whatever and not "every second"</li>
-  <li>Submit a PR to this website's repo or ping <a href="https://www.twitter.com/whiskeytuesday">@whiskeytuesday</a> to get your office hours added</li>
+  <li>Submit a PR to <a href="https://www.github.com/whiskeytuesday/officehoursdotlol">this website's repo</a> or ping <a href="https://www.twitter.com/whiskeytuesday">@whiskeytuesday</a> to get your office hours added</li>
 </ul>
