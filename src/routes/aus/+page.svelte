@@ -15,9 +15,7 @@
   <a href="https://twitter.com/timebard">@timebard</a>
   or
   <a href="https://twitter.com/arcanejuice">@arcanejuice</a>
-  or
-  <a href="https://twitter.com/wigglybone">@wigglybone</a>
-  for more info.
+  or for more info.
 </p>
 
 <div class="info-blue">
