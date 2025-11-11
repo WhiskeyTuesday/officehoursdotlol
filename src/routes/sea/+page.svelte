@@ -5,8 +5,7 @@
 
 <div class="info-green">
   <p>
-    At Chuck's Hop Shop in the Central District.
-    (formerly Sneed's (not really))
+    At Stoup Brewing in Capitol Hill.
   </p>
 </div>
 
