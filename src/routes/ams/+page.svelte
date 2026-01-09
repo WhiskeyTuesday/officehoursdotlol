@@ -6,7 +6,7 @@
 <p>
   contact
   <a href="https://twitter.com/djmicrobeads">@djmicrobeads</a>
-  of <a href="https://twitter.com/almostnora">@almostnora</a>
+  or <a href="https://twitter.com/almostnora">@almostnora</a>
   for more info.
 </p>
 <p>
