@@ -13,6 +13,9 @@
   <p>
     Email Tony for more info at  tony [at] tonyshouse [dot] art
   </p>
+<p>But if Tony is unavailable for some reason, please contact 
+<a href="https://x.com/kelbystrike">Kelvin on Twitter/X.</a>
+</p>
 </div>
 
 <div class="info-blue">
