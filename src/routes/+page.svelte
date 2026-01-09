@@ -48,7 +48,7 @@
     </ul>
   </div>
   <div id="as">
-    <h3>Asia:</h3>
+    <h3>asia:</h3>
     <ul>
       {#each as as { slug, label }}
         <li><abbr title="{label}"><a href="{`/${slug}`}">{slug}</a></abbr></li>
