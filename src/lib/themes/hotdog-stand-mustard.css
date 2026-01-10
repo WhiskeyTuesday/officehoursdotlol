@@ -1,0 +1,26 @@
+[data-theme="hotdog-stand-mustard"] {
+  --color-bg: #ffff54;
+  --color-text: #000000;
+  --color-border: #ea3323;
+  --color-muted: #666666;
+
+  --alert-bg: #ea3323;
+  --alert-text: #ffffff;
+  --alert-border: #000000;
+
+  --warn-bg: #ea3323;
+  --warn-text: #ffffff;
+  --warn-border: #000000;
+
+  --info-blue-bg: #ea3323;
+  --info-blue-text: #ffffff;
+  --info-blue-border: #000000;
+
+  --info-green-bg: #ea3323;
+  --info-green-text: #ffffff;
+  --info-green-border: #000000;
+
+  --qr-bg: #ea3323;
+  --qr-fg: #ffff54;
+  --qr-border: #ea3323;
+}

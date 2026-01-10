@@ -1,0 +1,26 @@
+[data-theme="ristretto"] {
+  --color-bg: #2c2525;
+  --color-text: #fff1f3;
+  --color-border: #85dacc;
+  --color-muted: #72696a;
+
+  --alert-bg: #4c2530;
+  --alert-text: #fd6883;
+  --alert-border: #fd6883;
+
+  --warn-bg: #4c4025;
+  --warn-text: #f9cc6c;
+  --warn-border: #f9cc6c;
+
+  --info-blue-bg: #3c3545;
+  --info-blue-text: #a8a9eb;
+  --info-blue-border: #a8a9eb;
+
+  --info-green-bg: #2c3c35;
+  --info-green-text: #adda78;
+  --info-green-border: #85dacc;
+
+  --qr-bg: #3c3535;
+  --qr-fg: #fff1f3;
+  --qr-border: #85dacc;
+}

@@ -2,6 +2,20 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
+		<script>
+			// Inline theme detection - runs before first paint to prevent flash
+			// Note: validation against theme list happens in JS, this just applies stored/system preference
+			(function() {
+				var stored = localStorage.getItem('theme');
+				var theme = stored;
+				if (!theme) {
+					if (window.matchMedia('(prefers-color-scheme: dark)').matches) theme = 'dark';
+					else if (window.matchMedia('(prefers-color-scheme: light)').matches) theme = 'light';
+					else theme = 'dim';
+				}
+				document.documentElement.dataset.theme = theme;
+			})();
+		</script>
 		<link rel="icon" href="%sveltekit.assets%/favicon.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%

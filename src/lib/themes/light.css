@@ -1,0 +1,26 @@
+[data-theme="light"] {
+  --color-bg: #fff;
+  --color-text: #111;
+  --color-border: #111;
+  --color-muted: #666;
+
+  --alert-bg: #f8d7da;
+  --alert-text: #721c24;
+  --alert-border: #f5c6cb;
+
+  --warn-bg: #fff3cd;
+  --warn-text: #856404;
+  --warn-border: #ffeeba;
+
+  --info-blue-bg: #cce5ff;
+  --info-blue-text: #004085;
+  --info-blue-border: #b8daff;
+
+  --info-green-bg: #d4edda;
+  --info-green-text: #155724;
+  --info-green-border: #c3e6cb;
+
+  --qr-bg: black;
+  --qr-fg: white;
+  --qr-border: transparent;
+}

@@ -1,0 +1,26 @@
+[data-theme="solarized-dark"] {
+  --color-bg: #002b36;
+  --color-text: #839496;
+  --color-border: #586e75;
+  --color-muted: #657b83;
+
+  --alert-bg: #2a1a1a;
+  --alert-text: #dc322f;
+  --alert-border: #cb4b16;
+
+  --warn-bg: #2a2810;
+  --warn-text: #b58900;
+  --warn-border: #b58900;
+
+  --info-blue-bg: #0a3040;
+  --info-blue-text: #268bd2;
+  --info-blue-border: #268bd2;
+
+  --info-green-bg: #1a2a10;
+  --info-green-text: #859900;
+  --info-green-border: #859900;
+
+  --qr-bg: #073642;
+  --qr-fg: #eee8d5;
+  --qr-border: #586e75;
+}

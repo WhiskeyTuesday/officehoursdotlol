@@ -1,0 +1,26 @@
+[data-theme="osaka-jade"] {
+  --color-bg: #0a1a18;
+  --color-text: #c8e0d8;
+  --color-border: #50a090;
+  --color-muted: #608880;
+
+  --alert-bg: #2a1818;
+  --alert-text: #f07068;
+  --alert-border: #c05050;
+
+  --warn-bg: #2a2818;
+  --warn-text: #e0c060;
+  --warn-border: #b09030;
+
+  --info-blue-bg: #102028;
+  --info-blue-text: #60a0c0;
+  --info-blue-border: #4080a0;
+
+  --info-green-bg: #0a2820;
+  --info-green-text: #80d0a0;
+  --info-green-border: #50a090;
+
+  --qr-bg: #1a2a28;
+  --qr-fg: #c8e0d8;
+  --qr-border: #50a090;
+}

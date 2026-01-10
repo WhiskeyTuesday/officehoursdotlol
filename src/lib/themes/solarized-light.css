@@ -1,0 +1,26 @@
+[data-theme="solarized-light"] {
+  --color-bg: #fdf6e3;
+  --color-text: #657b83;
+  --color-border: #93a1a1;
+  --color-muted: #839496;
+
+  --alert-bg: #ffeaea;
+  --alert-text: #dc322f;
+  --alert-border: #dc322f;
+
+  --warn-bg: #fff8e0;
+  --warn-text: #b58900;
+  --warn-border: #b58900;
+
+  --info-blue-bg: #eef6ff;
+  --info-blue-text: #268bd2;
+  --info-blue-border: #268bd2;
+
+  --info-green-bg: #f0fff0;
+  --info-green-text: #859900;
+  --info-green-border: #859900;
+
+  --qr-bg: #073642;
+  --qr-fg: #fdf6e3;
+  --qr-border: #93a1a1;
+}

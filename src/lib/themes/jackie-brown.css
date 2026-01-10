@@ -1,0 +1,26 @@
+[data-theme="jackie-brown"] {
+  --color-bg: #2c1d16;
+  --color-text: #ffcc2f;
+  --color-border: #af8d21;
+  --color-muted: #bfbfbf;
+
+  --alert-bg: #4c1a10;
+  --alert-text: #ef5734;
+  --alert-border: #e50000;
+
+  --warn-bg: #4c4010;
+  --warn-text: #e5e500;
+  --warn-border: #bebf00;
+
+  --info-blue-bg: #1a2a4c;
+  --info-blue-text: #00acee;
+  --info-blue-border: #246eb2;
+
+  --info-green-bg: #1a3c1a;
+  --info-green-text: #86a93e;
+  --info-green-border: #2baf2b;
+
+  --qr-bg: #3c2d26;
+  --qr-fg: #ffcc2f;
+  --qr-border: #af8d21;
+}

@@ -1,0 +1,26 @@
+[data-theme="powderpuff"] {
+  --color-bg: #fff0f5;
+  --color-text: #4a3040;
+  --color-border: #d8a0b0;
+  --color-muted: #9a7080;
+
+  --alert-bg: #ffccdd;
+  --alert-text: #802040;
+  --alert-border: #ff99bb;
+
+  --warn-bg: #fff0cc;
+  --warn-text: #806020;
+  --warn-border: #ffd080;
+
+  --info-blue-bg: #e0f0ff;
+  --info-blue-text: #204080;
+  --info-blue-border: #a0c0ff;
+
+  --info-green-bg: #e0ffe0;
+  --info-green-text: #206020;
+  --info-green-border: #90d090;
+
+  --qr-bg: #4a3040;
+  --qr-fg: #fff0f5;
+  --qr-border: #d8a0b0;
+}

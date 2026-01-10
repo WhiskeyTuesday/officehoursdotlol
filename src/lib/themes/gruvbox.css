@@ -1,0 +1,26 @@
+[data-theme="gruvbox"] {
+  --color-bg: #282828;
+  --color-text: #ebdbb2;
+  --color-border: #a89984;
+  --color-muted: #928374;
+
+  --alert-bg: #3c1f1e;
+  --alert-text: #fb4934;
+  --alert-border: #cc241d;
+
+  --warn-bg: #3c3620;
+  --warn-text: #fabd2f;
+  --warn-border: #d79921;
+
+  --info-blue-bg: #2c3540;
+  --info-blue-text: #83a598;
+  --info-blue-border: #458588;
+
+  --info-green-bg: #2c3020;
+  --info-green-text: #b8bb26;
+  --info-green-border: #98971a;
+
+  --qr-bg: #3c3836;
+  --qr-fg: #ebdbb2;
+  --qr-border: #a89984;
+}

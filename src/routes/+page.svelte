@@ -28,8 +28,6 @@
   ]);
 </script>
 
-<h1>office hours dot lol</h1>
-
 <div id="list-container">
   <div id="na">
     <h3>north america:</h3>
@@ -77,22 +75,17 @@
 </p>
 
 <p>
+  There's also a <a href="/gettingstarted">getting started</a> page
+  now. Check that out if you want to start your own office hours
+  branch. Join us. JOIN USSSSSSS.
+</p>
+
+<p>
   The QR codes on each page link back to themselves so you
   can help a friend bookmark the page for their local event
   or whatever. They were super cool ASCII QR codes but they
   refuse to render correctly on mobile so they're boring
   svgs now. I'm not salty about it at all.
-</p>
-
-<p>
-  Dark mode works now (if it's your system default).
-  Explicit buttons coming soon™
-</p>
-
-<p>
-  There's also a <a href="/gettingstarted">getting started</a> page
-  now. Check that out if you want to start your own office hours
-  branch. Join us. JOIN USSSSSSS.
 </p>
 
 <style>

@@ -1,0 +1,26 @@
+[data-theme="hotdog-stand"] {
+  --color-bg: #ea3323;
+  --color-text: #ffffff;
+  --color-border: #ffff54;
+  --color-muted: #c6c6c6;
+
+  --alert-bg: #ffff54;
+  --alert-text: #000000;
+  --alert-border: #000000;
+
+  --warn-bg: #ffff54;
+  --warn-text: #000000;
+  --warn-border: #000000;
+
+  --info-blue-bg: #ffff54;
+  --info-blue-text: #000000;
+  --info-blue-border: #000000;
+
+  --info-green-bg: #ffff54;
+  --info-green-text: #000000;
+  --info-green-border: #000000;
+
+  --qr-bg: #ffff54;
+  --qr-fg: #ea3323;
+  --qr-border: #ffff54;
+}

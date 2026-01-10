@@ -1,7 +1,5 @@
-/* TODO refactor dark mode correctly */
-
-html {
-  --color-border: #111;
+/* Global variables */
+:root {
   --link-color: #4e8ee9;
   --visited-link-color: #b4a0ff;
 }
@@ -11,95 +9,60 @@ body {
   font-size: 1rem;
   margin: 0;
   padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+a:link {
+  color: var(--link-color);
+}
+
+a:visited {
+  color: var(--visited-link-color);
+}
+
+a:visited:hover {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--visited-link-color);
 }
 
 .alert {
-  background-color: #f8d7da;
-  color: #721c24;
+  background-color: var(--alert-bg);
+  color: var(--alert-text);
   padding: 1rem;
   margin: 1rem 0;
-  border: 1px solid #f5c6cb;
+  border: 1px solid var(--alert-border);
   border-radius: 0.25rem;
 }
 
 .warn {
-  background-color: #fff3cd;
-  color: #856404;
+  background-color: var(--warn-bg);
+  color: var(--warn-text);
   padding: 1rem;
   margin: 1rem 0;
-  border: 1px solid #ffeeba;
+  border: 1px solid var(--warn-border);
   border-radius: 0.25rem;
 }
 
 .info-blue {
-  background-color: #cce5ff;
-  color: #004085;
+  background-color: var(--info-blue-bg);
+  color: var(--info-blue-text);
   padding: 1rem;
   margin: 1rem 0;
-  border: 1px solid #b8daff;
+  border: 1px solid var(--info-blue-border);
   border-radius: 0.25rem;
 }
 
 .info-green {
-  background-color: #d4edda;
-  color: #155724;
+  background-color: var(--info-green-bg);
+  color: var(--info-green-text);
   padding: 1rem;
   margin: 1rem 0;
-  border: 1px solid #c3e6cb;
+  border: 1px solid var(--info-green-border);
   border-radius: 0.25rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    --color-border: #eee;
-    --link-color: #4e8ee9;
-    --visited-link-color: #b4a0ff;
-  }
-
-  body {
-    background-color: #111;
-    color: #eee;
-
-    a:link {
-      color: var(--link-color);
-    }
-
-    a:visited {
-      color: var(--visited-link-color);
-    }
-
-    a:visited:hover {
-      text-decoration: none;
-      color: var(--link-color);
-    }
-
-    a:hover {
-      text-decoration: underline;
-      color: var(--visited-link-color);
-    }
-  }
-
-  .alert {
-    background-color: #721c24;
-    color: #f8d7da;
-    border: 1px solid #f5c6cb;
-  }
-
-  .warn {
-    background-color: #856404;
-    color: #fff3cd;
-    border: 1px solid #ffeeba;
-  }
-
-  .info-blue {
-    background-color: #004085;
-    color: #cce5ff;
-    border: 1px solid #b8daff;
-  }
-
-  .info-green {
-    background-color: #155724;
-    color: #d4edda;
-    border: 1px solid #c3e6cb;
-  }
 }

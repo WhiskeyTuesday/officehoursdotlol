@@ -1,0 +1,26 @@
+[data-theme="everforest"] {
+  --color-bg: #1e2326;
+  --color-text: #d3c6aa;
+  --color-border: #a7c080;
+  --color-muted: #7a8478;
+
+  --alert-bg: #4c3743;
+  --alert-text: #e67e80;
+  --alert-border: #e67e80;
+
+  --warn-bg: #3d4220;
+  --warn-text: #dbbc7f;
+  --warn-border: #dfa000;
+
+  --info-blue-bg: #2d4050;
+  --info-blue-text: #7fbbb3;
+  --info-blue-border: #3a94c5;
+
+  --info-green-bg: #2d3d30;
+  --info-green-text: #a7c080;
+  --info-green-border: #83c092;
+
+  --qr-bg: #2e3338;
+  --qr-fg: #d3c6aa;
+  --qr-border: #a7c080;
+}

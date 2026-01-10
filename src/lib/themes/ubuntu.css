@@ -1,0 +1,26 @@
+[data-theme="ubuntu"] {
+  --color-bg: #300a24;
+  --color-text: #eeeeec;
+  --color-border: #ad7fa8;
+  --color-muted: #d3d7cf;
+
+  --alert-bg: #4c1a1a;
+  --alert-text: #ef2929;
+  --alert-border: #cc0000;
+
+  --warn-bg: #4c4010;
+  --warn-text: #fce94f;
+  --warn-border: #c4a000;
+
+  --info-blue-bg: #1a2a4c;
+  --info-blue-text: #729fcf;
+  --info-blue-border: #3465a4;
+
+  --info-green-bg: #1a3c1a;
+  --info-green-text: #8ae234;
+  --info-green-border: #4e9a06;
+
+  --qr-bg: #401428;
+  --qr-fg: #eeeeec;
+  --qr-border: #ad7fa8;
+}
