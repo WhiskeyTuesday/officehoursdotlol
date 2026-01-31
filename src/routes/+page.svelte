@@ -12,6 +12,7 @@
     { slug: 'aus', label: 'Austin, TX' },
     { slug: 'dca', label: 'Washington, DC' },
     { slug: 'ord', label: 'Chicago, IL' },
+    { slug: 'msy', label: 'New Orleans, LA' },
   ]);
 
   const eu = shuffle([
