@@ -1,0 +1,29 @@
+:root[data-theme="mardi-gras"] {
+  --color-bg: #1a0a2e;
+  --color-text: #ffd700;
+  --color-border: #6b2d8b;
+  --color-muted: #9b59b6;
+
+  --link-color: #2ecc71;
+  --visited-link-color: #1a7a42;
+
+  --alert-bg: #3d1f24;
+  --alert-text: #f4cccc;
+  --alert-border: #8b3a3a;
+
+  --warn-bg: #3d3520;
+  --warn-text: #f9e8c0;
+  --warn-border: #8b7830;
+
+  --info-blue-bg: #1a3550;
+  --info-blue-text: #c0daf0;
+  --info-blue-border: #1d9bf0;
+
+  --info-green-bg: #0d3d1a;
+  --info-green-text: #90ee90;
+  --info-green-border: #2e8b57;
+
+  --qr-bg: #2d1b4e;
+  --qr-fg: #ffd700;
+  --qr-border: #6b2d8b;
+}

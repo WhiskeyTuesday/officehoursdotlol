@@ -16,6 +16,13 @@
   onMount(() => {
     currentTheme = getInitialTheme();
 
+    // Mardi Gras override - show festive theme on mardi gras day
+    const today = new Date();
+    if (today.getMonth() === 1 && today.getDate() === 17 && today.getFullYear() === 2026) {
+      currentTheme = 'mardi-gras';
+      document.documentElement.dataset.theme = 'mardi-gras';
+    }
+
     // Keyboard listener for Konami code easter egg
     const handleKeyDown = (e) => {
       const expected = KONAMI[konamiProgress];
