@@ -1,7 +1,14 @@
 <h1>nyc</h1>
 <h2>New York, New York</h2>
 
-<p>Tuesdays at 6pm at McCarren Park in Williamsburg if the weather is nice</p>
+<p>Currently (February 2026) 7pm at d.b.a</p>
+<p>Summertime Tuesdays at 6pm at McCarren Park in Williamsburg if the weather is nice</p>
+
+<div class="info-green">
+  <p>
+    Look for a rubber duck
+  </p>
+</div>
 
 <div class="info-blue">
   <p>
