@@ -1,7 +1,7 @@
 <h1>aus</h1>
 <h2>Austin, Texas</h2>
 
-<h3>Wednesdays at 6pm</h3>
+<h3>Wednesdays at 6:30pm</h3>
 
 <div class="info-green">
   <p>Courtyard of Cosmic Saltillo @ 1300 E 4th St, Austin, TX 78702</p>
