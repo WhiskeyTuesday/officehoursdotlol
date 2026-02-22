@@ -11,7 +11,6 @@
     { slug: 'sea', label: 'Seattle, WA' },
     { slug: 'aus', label: 'Austin, TX' },
     { slug: 'dca', label: 'Washington, DC' },
-    { slug: 'ord', label: 'Chicago, IL' },
     { slug: 'msy', label: 'New Orleans, LA' },
     { slug: 'pdx', label: 'Portland, OR' },
   ]);
@@ -27,6 +26,7 @@
   ]);
 
   const inactive = shuffle([
+    { slug: 'ord', label: 'Chicago, IL' },
   ]);
 </script>
 
