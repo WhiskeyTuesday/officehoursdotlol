@@ -1,27 +1,14 @@
 <h1>ber</h1>
 <h2>Berlin, Germany</h2>
 
-<h3>Alternate Wednesdays at 7pm</h3>
+<p>formerly alternate Wednesdays at 7pm at the Muted Horn</p>
 
-<div class="info-green">
-  <p>Alternate Wednesdays at 7pm at the
-    <a href="https://www.google.com/maps/place/MUTED+HORN/@52.4781604,13.4283198,15.82z">
-      Muted Horn
-    </a>.
-  </p>
-</div>
-
-<div class="warn">
+<div class="alert">
   <p>
-    Every second week, except when it's not. Double check
-    with one of the contacts below.
+    Berlin office hours are currently inactive.
+  </p>
+  <p>
+    If you want to take the responsibility of organizing ber office hours
+    contact <a href="https://twitter.com/whiskeytuesday">@whiskeytuesday</a>
   </p>
 </div>
-
-<p>
-  contact
-  <a href="https://twitter.com/simon_ohler">@simon_ohler</a>
-  or <a href="https://twitter.com/maebichka">@maebichka</a>
-  or <a href="https://twitter.com/positive_loop">@positive_loop</a>
-  for more info.
-</p>
