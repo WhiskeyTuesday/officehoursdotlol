@@ -17,7 +17,6 @@
 
   const eu = shuffle([
     { slug: 'lon', label: 'London, UK' },
-    { slug: 'ber', label: 'Berlin, DE' },
     { slug: 'ams', label: 'Amsterdam, NL' },
   ]);
 
@@ -27,6 +26,7 @@
 
   const inactive = shuffle([
     { slug: 'ord', label: 'Chicago, IL' },
+    { slug: 'ber', label: 'Berlin, DE' },
   ]);
 </script>
 
