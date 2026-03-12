@@ -1,7 +1,7 @@
 <h1>yyz</h1>
 <h2>Toronto, Ontario</h2>
 
-<h3>Fridays at 6:30pm</h3>
+<h3>Fridays at 7:30pm</h3>
 <p>
   view website here: <a href="https://officehours.bar">officehours.bar</a>
 </p>
