@@ -21,12 +21,13 @@
   ]);
 
   const as = shuffle([
-    { slug: 'sin', label: 'Singapore' },
+    
   ]);
 
   const inactive = shuffle([
     { slug: 'ord', label: 'Chicago, IL' },
     { slug: 'ber', label: 'Berlin, DE' },
+    { slug: 'sin', label: 'Singapore' },
   ]);
 </script>
 
