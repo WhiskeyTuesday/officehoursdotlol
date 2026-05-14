@@ -20,13 +20,10 @@
     { slug: 'ams', label: 'Amsterdam, NL' },
   ]);
 
-  const as = shuffle([
-    { slug: 'sin', label: 'Singapore' },
-  ]);
-
   const inactive = shuffle([
     { slug: 'ord', label: 'Chicago, IL' },
     { slug: 'ber', label: 'Berlin, DE' },
+    { slug: 'sin', label: 'Singapore' },
   ]);
 </script>
 
@@ -43,14 +40,6 @@
     <h3>europe:</h3>
     <ul>
       {#each eu as { slug, label }}
-        <li><abbr title="{label}"><a href="{`/${slug}`}">{slug}</a></abbr></li>
-      {/each}
-    </ul>
-  </div>
-  <div id="as">
-    <h3>asia:</h3>
-    <ul>
-      {#each as as { slug, label }}
         <li><abbr title="{label}"><a href="{`/${slug}`}">{slug}</a></abbr></li>
       {/each}
     </ul>
