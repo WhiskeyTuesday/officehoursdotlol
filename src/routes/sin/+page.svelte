@@ -1,30 +1,14 @@
 <h1>sin</h1>
 <h2>Singapore, South-east Asia</h2>
 
-<em>Hi there, stranger. Wanna join us?</em>
+<p>formerly every second Wednesday of the month, at 7pm at Temasek Shophouse</p>
 
-<div class="info-green">
-  <p>Location: We're at Temasek Shophouse, near Dhoby Ghaut MRT station.</p>
-  <p>Time: every second Wednesday of the month, 7 PM,</p>
-  <p>Starting on 14 January 2026.</p>
-</div>
-
-<div>
+<div class="alert">
   <p>
-    Email Tony for more info at  tony [at] tonyshouse [dot] art
-  </p>
-  <p>But if Tony is unavailable for some reason, please contact 
-    <a href="https://x.com/kelbystrike">Kelvin on Twitter/X.</a>
-  </p>
-</div>
-
-<div class="info-blue">
-  <p>
-    Identifying mark (so you don't have to ask a
-    total stranger: "Is this Office Hours?" How mortifying.)
+    Singapore office hours are currently inactive.
   </p>
   <p>
-    Look for a white thermos flask that says GlucosCare.
-    (it's a gift from my parents, they struggle with diabetes).
+    If you want to take the responsibility of organizing Singapore office hours,
+    contact <a href="https://twitter.com/whiskeytuesday">@whiskeytuesday</a>
   </p>
 </div>
