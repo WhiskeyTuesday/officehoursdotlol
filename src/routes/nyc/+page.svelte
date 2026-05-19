@@ -12,9 +12,9 @@
 
 <div class="info-blue">
   <p>
-    If the weather is bad it's at "a bar nearby",
-    I think the nyc crowd prefers a bit of illegibility.
-    Get into a cool-kids groupchat or something I guess.
+    If the weather is bad, 
+    see <a href="https://twitter.com/inflammateomnia">@inflammateomnia</a> / <a href="https://twitter.com/rgbqcd">@rgbqcd</a> 
+    posts on twitter for location
   </p>
 </div>
 
