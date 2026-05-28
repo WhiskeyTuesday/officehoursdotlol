@@ -12,5 +12,5 @@
 <hr />
 
 <p>
-  Contact <a href="https://twitter.com/pavedwalden">@pavedwalden</a> for more info.
+  Contact <a href="https://twitter.com/bstract_thot">@bstract_thot</a> for more info.
 </p>
