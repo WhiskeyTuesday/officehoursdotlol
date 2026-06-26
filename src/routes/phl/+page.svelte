@@ -9,7 +9,7 @@
 
 <div class="info-blue">
   <p>
-    Check <a href="https://twitter.com/FeralPHunter">@FeralPHunter</a>
+    Check <a href="https://twitter.com/PhillyGov">@PhillyGov</a>
     for updates.
   </p>
 </div>
