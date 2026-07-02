@@ -12,6 +12,7 @@
     { slug: 'aus', label: 'Austin, TX' },
     { slug: 'dca', label: 'Washington, DC' },
     { slug: 'pdx', label: 'Portland, OR' },
+    { slug: 'ord', label: 'Chicago, IL' },
   ]);
 
   const eu = shuffle([
@@ -20,7 +21,6 @@
   ]);
 
   const inactive = shuffle([
-    { slug: 'ord', label: 'Chicago, IL' },
     { slug: 'ber', label: 'Berlin, DE' },
     { slug: 'sin', label: 'Singapore' },
     { slug: 'msy', label: 'New Orleans, LA' },
