@@ -14,6 +14,7 @@
     { slug: 'pdx', label: 'Portland, OR' },
     { slug: 'ord', label: 'Chicago, IL' },
     { slug: 'pit', label: 'Pittsburgh, PA' },
+    { slug: 'azo', label: 'Kalamazoo, MI' },
   ]);
 
   const eu = shuffle([
