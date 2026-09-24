@@ -13,6 +13,8 @@
 
 <p>
   contact
+  <a href="https://twitter.com/More__Clear">@More__Clear</a>
+  or
   <a href="https://twitter.com/cephalopod797">@cephalopod797</a>
   for more info.
 </p>
