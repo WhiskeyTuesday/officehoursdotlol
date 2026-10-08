@@ -2,7 +2,7 @@
   import { page } from '$app/state';
   import { onMount } from 'svelte';
   import qr from 'qrcode-generator';
-  import { THEMES, DEFAULT_THEME, setTheme, getInitialTheme } from '$lib/theme.js';
+  import { THEMES, DEFAULT_THEME, setTheme, getInitialTheme } from '#lib/theme.js';
   import '../global.css';
 
   const MAIN_THEMES = ['light', 'dim', 'dark'];
