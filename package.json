@@ -8,11 +8,11 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.0.0",
-		"@sveltejs/kit": "^2.5.27",
+		"@sveltejs/adapter-vercel": "^6.3.4",
+		"@sveltejs/kit": "^2.70.3",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0",
 		"@types/lodash.shuffle": "^4.2.9",
-		"svelte": "^5.0.0",
+		"svelte": "^5.57.2",
 		"vite": "^5.4.4"
 	},
 	"type": "module",
