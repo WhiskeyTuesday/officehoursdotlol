@@ -1,5 +1,5 @@
 <script>
-  import { page } from '$app/stores'
+  import { page } from '$app/state';
   import { onMount } from 'svelte';
   import qr from 'qrcode-generator';
   import { THEMES, DEFAULT_THEME, setTheme, getInitialTheme } from '$lib/theme.js';
@@ -58,7 +58,7 @@
 
   let { children } = $props();
 
-  let lastPage = $page.url.href;
+  let lastPage = page.url.href;
 
   let makeQR = (address) => {
     const theqr = $state(qr(0, 'H'));
@@ -70,7 +70,7 @@
   let selfqr = $state(makeQR(lastPage));
 
   $effect(() => {
-    const currentPage = $page.url.href;
+    const currentPage = page.url.href;
     if (currentPage !== lastPage) {
       lastPage = currentPage;
       selfqr = makeQR(currentPage);
@@ -82,7 +82,7 @@
 
 <div class="container">
   <header class="site-header">
-    {#if $page.url.pathname === '/'}
+    {#if page.url.pathname === '/'}
       <h1 class="site-title">office hours dot lol</h1>
     {:else}
       <a href="/"><h3 class="home-link">home</h3></a>
@@ -111,7 +111,7 @@
 
   {@render children?.()}
 
-  {#if $page.url.pathname !== '/'}
+  {#if page.url.pathname !== '/'}
     <div class="qrbox">
       <h4>QR code for this exact webpage</h4>
       <p><small>So you can hold out your phone and other people can save this
@@ -125,7 +125,7 @@
   {/if}
 
   <div class="footer">
-    <span><a href="{$page.url.href}">officehours.lol</a> is powered by <a href="https://www.lcc.solutions">The Lifestyle™ Computer Company</a> and maintained by <a href="https://www.elijasorensen.com">Elija Sorensen</a> be good to each other stay cool</span>
+    <span><a href="{page.url.href}">officehours.lol</a> is powered by <a href="https://www.lcc.solutions">The Lifestyle™ Computer Company</a> and maintained by <a href="https://www.elijasorensen.com">Elija Sorensen</a> be good to each other stay cool</span>
   </div>
 </div>
 
