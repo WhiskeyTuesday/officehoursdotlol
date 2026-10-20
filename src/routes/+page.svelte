@@ -21,6 +21,7 @@
   const eu = shuffle([
     { slug: 'lon', label: 'London, UK' },
     { slug: 'ams', label: 'Amsterdam, NL' },
+    { slug: 'lis', label: 'Lisbon, PT' },
   ]);
 
   const asia = shuffle([
