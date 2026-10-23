@@ -11,12 +11,14 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-vercel": "^7.0.0",
-		"@sveltejs/kit": "^3.0.1",
+		"@sveltejs/adapter-vercel": "^7.0.1",
+		"@sveltejs/kit": "^3.1.0",
 		"@sveltejs/vite-plugin-svelte": "^7.3.1",
 		"@types/lodash.shuffle": "^4.2.9",
 		"svelte": "^5.57.2",
-		"vite": "^8.3.4"
+		"vite": "^8.3.5",
+		"typescript": "^6.0.3",
+		"@opentelemetry/api": "^1.10.0"
 	},
 	"type": "module",
 	"imports": {
