@@ -20,6 +20,11 @@
 		"#lib/*": "./src/lib/*"
 	},
 	"packageManager": "pnpm@10.18.3",
+	"pnpm": {
+		"overrides": {
+			"rollup": "^4.59.0"
+		}
+	},
 	"dependencies": {
 		"lodash.shuffle": "^4.2.0",
 		"qrcode-generator": "^2.0.4"
