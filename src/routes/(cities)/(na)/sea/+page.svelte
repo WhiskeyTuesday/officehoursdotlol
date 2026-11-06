@@ -1,0 +1,23 @@
+<script module>
+  export const label = 'Seattle, WA';
+  export const active = true;
+</script>
+
+<h1>sea</h1>
+<h2>Seattle, Washington</h2>
+
+<h3>Tuesdays at 6:30pm</h3>
+
+<div class="info-green">
+  <p>
+    At Stoup Brewing in Capitol Hill.
+  </p>
+</div>
+
+<hr />
+
+<p>
+  Contact <a href="https://twitter.com/danallison">@danallison</a> or
+  <a href="https://twitter.com/emergent_proper">@emergent_proper</a>
+  for more info.
+</p>

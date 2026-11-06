@@ -1,25 +1,23 @@
 <script>
   import { page } from '$app/state';
   import { onMount } from 'svelte';
-  import qr from 'qrcode-generator';
-  import { THEMES, DEFAULT_THEME, setTheme, getInitialTheme } from '#lib/theme.js';
+  import { THEMES, getInitialTheme } from '#lib/theme.js';
+  import { getTheme, selectTheme, noteTheme } from '#lib/theme-state.svelte.js';
   import '../global.css';
 
   const MAIN_THEMES = ['light', 'dim', 'dark'];
-  let currentTheme = $state(DEFAULT_THEME);
   let showAllThemes = $state(false);
-  let qrClickCount = $state(0);
   let konamiProgress = $state(0);
 
   const KONAMI = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
 
   onMount(() => {
-    currentTheme = getInitialTheme();
+    noteTheme(getInitialTheme());
 
     // Mardi Gras override - show festive theme on mardi gras day
     const today = new Date();
     if (today.getMonth() === 1 && today.getDate() === 17 && today.getFullYear() === 2026) {
-      currentTheme = 'mardi-gras';
+      noteTheme('mardi-gras');
       document.documentElement.dataset.theme = 'mardi-gras';
     }
 
@@ -41,43 +39,7 @@
     return () => window.removeEventListener('keydown', handleKeyDown);
   });
 
-  function selectTheme(theme) {
-    currentTheme = theme;
-    setTheme(theme);
-  }
-
-  // Easter egg: QR code cycles through ALL themes after 7 clicks
-  function handleQrClick() {
-    qrClickCount++;
-    if (qrClickCount > 7) {
-      const idx = THEMES.indexOf(currentTheme);
-      currentTheme = THEMES[(idx + 1) % THEMES.length];
-      setTheme(currentTheme);
-    }
-  }
-
   let { children } = $props();
-
-  let lastPage = page.url.href;
-
-  let makeQR = (address) => {
-    const theqr = $state(qr(0, 'H'));
-    theqr.addData(address);
-    theqr.make();
-    return theqr;
-  }
-
-  let selfqr = $state(makeQR(lastPage));
-
-  $effect(() => {
-    const currentPage = page.url.href;
-    if (currentPage !== lastPage) {
-      lastPage = currentPage;
-      selfqr = makeQR(currentPage);
-    }
-  });
-
-  let qrstring = $derived(selfqr.createSvgTag({ scalable: true, margin: 0 }));
 </script>
 
 <div class="container">
@@ -90,7 +52,7 @@
 
     <div class="theme-switcher">
       {#if showAllThemes}
-        <select class="theme-dropdown" onchange={(e) => selectTheme(e.target.value)} value={currentTheme}>
+        <select class="theme-dropdown" onchange={(e) => selectTheme(e.target.value)} value={getTheme()}>
           {#each THEMES as theme}
             <option value={theme}>{theme}</option>
           {/each}
@@ -100,7 +62,7 @@
           {#each MAIN_THEMES as theme}
             <button
               class="theme-btn"
-              class:active={currentTheme === theme || (!MAIN_THEMES.includes(currentTheme) && theme === 'dim')}
+              class:active={getTheme() === theme || (!MAIN_THEMES.includes(getTheme()) && theme === 'dim')}
               onclick={() => selectTheme(theme)}
             >{theme}</button>
           {/each}
@@ -111,21 +73,8 @@
 
   {@render children?.()}
 
-  {#if page.url.pathname !== '/'}
-    <div class="qrbox">
-      <h4>QR code for this exact webpage</h4>
-      <p><small>So you can hold out your phone and other people can save this
-      page for future reference or whatever</small></p>
-      {#if selfqr}
-          <div class="qrcode" onclick={handleQrClick} onkeydown={(e) => e.key === 'Enter' && handleQrClick()} role="button" tabindex="0" title={qrClickCount > 7 ? `Theme: ${currentTheme}` : 'QR code'}>
-            {@html qrstring}
-          </div>
-      {/if}
-    </div>
-  {/if}
-
   <div class="footer">
-    <span><a href="{page.url.href}">officehours.lol</a> is powered by <a href="https://www.lcc.solutions">The Lifestyle™ Computer Company</a> and maintained by <a href="https://www.elijasorensen.com">Elija Sorensen</a> be good to each other stay cool</span>
+    <span><a href="{page.url.href}">officehours.lol</a> is a project of <a href="https://www.elijasorensen.com">Elija Sorensen</a> be good to each other stay cool; add a city or fix a page on <a href="https://www.github.com/whiskeytuesday/officehoursdotlol">the repo</a>.</span>
   </div>
 </div>
 
@@ -211,36 +160,5 @@
   .theme-dropdown:focus {
     outline: 1px solid var(--color-text);
     border-color: var(--color-text);
-  }
-
-  .qrcode {
-    border: 0.25rem solid var(--qr-border);
-    cursor: pointer;
-  }
-
-  .qrbox {
-    width: 100%;
-    max-width: 60%;
-    padding: 1rem 0 1rem 0;
-  }
-
-  .qrbox h4 {
-    margin: 0;
-  }
-
-  .qrbox p {
-    margin: 0 0 1rem 0;
-  }
-
-  .qrbox :global(svg) {
-    display: block;
-  }
-
-  .qrbox :global(svg rect) {
-    fill: var(--qr-fg);
-  }
-
-  .qrbox :global(svg path) {
-    fill: var(--qr-bg);
   }
 </style>

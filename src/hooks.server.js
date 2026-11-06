@@ -1,4 +1,5 @@
 import { redirect } from '@sveltejs/kit';
+import { redirects } from './redirects.js';
 
 export async function handle({ event, resolve }) {
   const url = event.url;
@@ -7,8 +8,14 @@ export async function handle({ event, resolve }) {
   // Check if the pathname contains uppercase letters
   if (pathname !== pathname.toLowerCase()) {
     // Redirect to lowercase version
-    throw redirect(301, pathname.toLowerCase() + url.search);
+    redirect(301, pathname.toLowerCase() + url.search);
   }
 
-  return resolve(event);
+  const response = await resolve(event);
+  const dest = redirects[pathname];
+  if (response.status === 404 && dest) {
+    redirect(301, dest + url.search);
+  }
+
+  return response;
 }

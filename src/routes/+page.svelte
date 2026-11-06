@@ -1,75 +1,68 @@
 <script>
   import shuffle from 'lodash.shuffle';
-  const na = shuffle([
-    { slug: 'nyc', label: 'New York City, NY' },
-    { slug: 'sfo', label: 'San Francisco, CA' },
-    { slug: 'yvr', label: 'Vancouver, BC' },
-    { slug: 'yyz', label: 'Toronto, ON' },
-    { slug: 'san', label: 'San Diego, CA' },
-    { slug: 'phl', label: 'Philadelphia, PA' },
-    { slug: 'bos', label: 'Boston, MA' },
-    { slug: 'sea', label: 'Seattle, WA' },
-    { slug: 'aus', label: 'Austin, TX' },
-    { slug: 'dca', label: 'Washington, DC' },
-    { slug: 'pdx', label: 'Portland, OR' },
-    { slug: 'ord', label: 'Chicago, IL' },
-    { slug: 'pit', label: 'Pittsburgh, PA' },
-    { slug: 'msp', label: 'Minneapolis, MN' },
-    { slug: 'azo', label: 'Kalamazoo, MI' },
-  ]);
 
-  const eu = shuffle([
-    { slug: 'lon', label: 'London, UK' },
-    { slug: 'ams', label: 'Amsterdam, NL' },
-    { slug: 'lis', label: 'Lisbon, PT' },
-  ]);
+  // (cities) and (na) are route groups, so they organize files and
+  // layouts without showing up in the URL. A page at
+  // (cities)/(na)/nyc is served at /nyc.
+  const pages = import.meta.glob('./**/+page.svelte', { eager: true });
+  const sections = import.meta.glob('./**/section.js', { eager: true });
 
-  const asia = shuffle([
-    { slug: 'blr', label: 'Bengaluru, IN' },
-  ]);
+  const sectionById = new Map();
+  for (const [path, mod] of Object.entries(sections)) {
+    const match = path.match(/\(cities\)\/\(([^)]+)\)\/section\.js$/);
+    if (match) sectionById.set(match[1], mod);
+  }
 
-  const inactive = shuffle([
-    { slug: 'ber', label: 'Berlin, DE' },
-    { slug: 'sin', label: 'Singapore' },
-    { slug: 'msy', label: 'New Orleans, LA' },
-  ]);
+  const byBucket = new Map();
+  const inactive = [];
+  for (const [path, mod] of Object.entries(pages)) {
+    const match = path.match(/\(cities\)\/\(([^)]+)\)\/([^/]+)\/\+page\.svelte$/);
+    if (!match) continue;
+    const [, bucket, slug] = match;
+    const city = {
+      slug,
+      label: mod.label ?? slug,
+      href: `/${slug}`,
+    };
+    if (mod.active === false) inactive.push(city);
+    else {
+      if (!byBucket.has(bucket)) byBucket.set(bucket, []);
+      byBucket.get(bucket).push(city);
+    }
+  }
+
+  const buckets = [...byBucket.entries()]
+    .map(([id, cities]) => {
+      const section = sectionById.get(id);
+      return {
+        id,
+        title: section?.title ?? id,
+        order: section?.order ?? 100,
+        cities: shuffle(cities),
+      };
+    })
+    .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
+
+  if (inactive.length) {
+    buckets.push({
+      id: 'inactive',
+      title: 'inactive',
+      cities: shuffle(inactive),
+    });
+  }
 </script>
 
 <div id="list-container">
-  <div id="na">
-    <h3>north america:</h3>
-    <ul>
-      {#each na as { slug, label }}
-        <li><abbr title="{label}"><a href="{`/${slug}`}">{slug}</a></abbr></li>
-      {/each}
-    </ul>
-  </div>
-  <div id="eu">
-    <h3>europe:</h3>
-    <ul>
-      {#each eu as { slug, label }}
-        <li><abbr title="{label}"><a href="{`/${slug}`}">{slug}</a></abbr></li>
-      {/each}
-    </ul>
-  </div>
-  <div id="asia">
-    <h3>asia:</h3>
-    <ul>
-      {#each asia as { slug, label }}
-        <li><abbr title="{label}"><a href="{`/${slug}`}">{slug}</a></abbr></li>
-      {/each}
-    </ul>
-  </div>
-  {#if inactive.length}
-    <div id="inactive">
-      <h3>inactive:</h3>
+  {#each buckets as bucket (bucket.id)}
+    <div id={bucket.id}>
+      <h3>{bucket.title}:</h3>
       <ul>
-        {#each inactive as { slug, label }}
-          <li><abbr title="{label}"><a href="{`/${slug}`}">{slug}</a></abbr></li>
+        {#each bucket.cities as { slug, label, href } (slug)}
+          <li><abbr title={label}><a href={href}>{slug}</a></abbr></li>
         {/each}
       </ul>
     </div>
-  {/if}
+  {/each}
 </div>
 
 <p>
