@@ -8,19 +8,18 @@
 
 <p>
   Second Saturday of the month, brunch at 11am at
-  O'Briens Riverwalk Cafe
+  Bourgeois Pig Cafe in Lincoln Park for the colder months
 </p>
 
 <div class="info-green">
-  <a href="https://maps.google.com/?q=45+E+Riverwalk+S,+Chicago,+IL+60601">
-    45 E Riverwalk S, Chicago, IL 60601
+  <a href="https://maps.google.com/?q=738+W+Fullerton+Ave,+Chicago,+IL+60614">
+    738 W Fullerton Ave, Chicago, IL 60614
   </a>
 </div>
 
 <div class="info-blue">
   <p>
-    Grand reopening August 8th! The first meeting is a pilot
-    for a tentative monthly schedule. Contact
+    Contact
     <a href="https://twitter.com/PalaeoPhilo">@PalaeoPhilo</a>
     for more information.
   </p>
